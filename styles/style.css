@@ -14,6 +14,7 @@
 }
 /* banner head styles */
 .banner {
+  margin: 0%;
   background: url(../images/banner/banner2.png);
   width: 100%;
   height: 810px;
@@ -29,11 +30,60 @@
   margin-top: 200px;
 }
 /* section  previous styles */
-.container{
+.container {
   display: flex;
   justify-content: space-between;
   margin: 50px 200px;
 }
-.list{
- margin-bottom: 100px;
+.list {
+  padding-top: 300px;
+  margin-left: 100px;
+}
+/* section plan styles */
+.plan {
+  margin-top: 30px;
+  text-align: center;
+}
+.plan-container {
+  display: flex;
+  margin-top: 60px;
+  margin-left: 360px;
+  gap: 60px;
+}
+/* section positive styles */
+.positive {
+  margin-top: 40px;
+  margin-left: 250px;
+  width: 850px;
+  height: 230px;
+  background: url(../images/gradient1.png);
+  background-color: aqua;
+}
+.positive-container {
+  padding-top: 30px;
+  padding-left: 40px;
+}
+/* section footer banner */
+
+.footer-banner {
+  gap: 117px;
+  color: aliceblue;
+  margin-top: 50px;
+  display: flex;
+  background: black;
+ padding: 40px 130px; 
+}
+.box{
+  padding: 10px 20px;
+}
+.btn-second{
+  color: aliceblue;
+  font-size: 24px;
+  background-color: orangered;
+  border: 0;
+  border-radius: 5px; 
+  width: 130px;
+  height: 54px;
+  left: 1210px;
+  top: 586px;
 }
